@@ -1,5 +1,5 @@
 function wmclose(varargin)
-%WMCLOSE Close web map
+
 %
 %   Syntax
 %   ------
