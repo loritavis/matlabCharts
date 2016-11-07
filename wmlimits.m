@@ -2,26 +2,7 @@ function varargout = wmlimits(varargin)
 %WMLIMITS Set or obtain web map limits
 %
 %   Syntax
-%   ------
-%   WMLIMITS(latitudeLimits, longitudeLimits)
-%   WMLIMITS(WM, latitudeLimits, longitudeLimits)
-%   [latitudeLimits, longitudeLimits] = WMLIMITS()
-%   [latitudeLimits, longitudeLimits] = WMLIMITS(WM)
-%
-%   Updated Description
-%   -----------
-%   WMLIMITS(latitudeLimits, longitudeLimits) requests that the current web
-%   map, or a new web map if there is no current web map, be centered
-%   within the latitude limits latitudeLimits and the longitude limits
-%   longitudeLimits. The resulting limits often do not match the requested
-%   limits, because the zoom level is quantized to discrete integer values
-%   and because the longitude limits may be constrained if the map was
-%   constructed with 'WrapAround', false.
-%
-%   WMLIMITS(WM, latitudeLimits, longitudeLimits)  centers the web map
-%   specified by the web map handle WM within the specified latitude limits
-%   and longitude limits.
-%
+
 %   [latitudeLimits, longitudeLimits] = WMLIMITS() returns the latitude and
 %   longitude limits of the web map specified by WM.
 %
