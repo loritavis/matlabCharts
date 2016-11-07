@@ -3,7 +3,6 @@ function varargout = wmlimits(varargin)
 %
 %   Syntax
 
-%   [latitudeLimits, longitudeLimits] = WMLIMITS() returns the latitude and
 %   longitude limits of the web map specified by WM.
 %
 %   [latitudeLimits, longitudeLimits] = WMLIMITS(WM) returns the latitude
